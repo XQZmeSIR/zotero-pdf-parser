@@ -62,12 +62,12 @@ node server.js
 Для того чтобы скрипт работал непрерывно на сервере, рекомендуется использовать менеджер процессов **PM2**:
 ```bash
 npm install -g pm2
-pm2 start server.js --name "zotero-clean-pdf"
+pm2 start server.js --name "zotero-pdf-parser"
 
 # Управление процессом:
 pm2 status
-pm2 restart zotero-clean-pdf
-pm2 logs zotero-clean-pdf
+pm2 restart zotero-pdf-parser
+pm2 logs zotero-pdf-parser
 ```
 
 ---
